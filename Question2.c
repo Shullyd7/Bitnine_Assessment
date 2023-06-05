@@ -1,6 +1,8 @@
 //Implementing the given piecewise recurrence relation F(n) = F(n-3) + F(n-2) in three different ways in C
 //using recursion, dynamic programming (memoization), and iterative approaches.
 
+#include <stdio.h>
+
 
 //1. Recursion
 int recursiveFibonacci(int n) {
